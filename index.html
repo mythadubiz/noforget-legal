@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoForget — Confidentialité · Privacy</title>
+<style>
+  :root { --ink:#22302f; --muted:#5f6b69; --bg:#fbf7f0; --card:#ffffff; --line:#eadfce; --coral:#d9573c; --teal:#1f5c63; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Helvetica Neue',Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .header { background:linear-gradient(135deg,#1f5c63 0%,#2a7b82 55%,#d9573c 100%); padding:56px 20px 48px; text-align:center; color:#fff; }
+  .header img { width:104px; height:104px; border-radius:23px; margin-bottom:16px; box-shadow:0 12px 34px rgba(0,0,0,.25); }
+  .header h1 { font-size:2.1em; letter-spacing:-.5px; }
+  .header p { opacity:.95; margin-top:6px; }
+  .lang { margin-top:16px; display:inline-flex; gap:8px; }
+  .lang a { color:#fff; border:1px solid rgba(255,255,255,.6); border-radius:999px; padding:4px 14px; text-decoration:none; font-weight:600; font-size:.9em; }
+  .container { max-width:720px; margin:0 auto; padding:8px 18px 40px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px 24px; margin:18px 0; }
+  .card h2 { font-size:1.2em; color:var(--teal); margin-bottom:8px; }
+  .card h3 { font-size:1em; margin:12px 0 4px; }
+  .card ul { margin:6px 0 4px 22px; } .card li { margin:5px 0; }
+  .card p + p { margin-top:8px; }
+  a { color:var(--coral); font-weight:600; }
+  .btn { display:inline-block; margin-top:10px; padding:12px 22px; background:var(--coral); color:#fff; border-radius:12px; text-decoration:none; }
+  .muted { color:var(--muted); font-size:.92em; }
+  footer { text-align:center; color:var(--muted); font-size:.85em; padding:24px; }
+  section + section { margin-top:28px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <img src="images/appicon.png" alt="NoForget">
+  <h1>NoForget</h1>
+  <p>Voiture, clés, objets : retrouvez où vous les avez laissés.</p>
+  <div class="lang"><a href="#fr">Français</a><a href="#en">English</a></div>
+</div>
+<div class="container">
+
+<section id="fr">
+  <div class="card">
+    <h2>Assistance</h2>
+    <p>Une question, un problème ? Écrivez-nous via notre formulaire de contact.</p>
+    <a class="btn" href="https://mythadubiz.github.io/contact/?app=noforget&amp;lang=fr&amp;ctx=support">Nous contacter</a>
+  </div>
+  <div class="card">
+    <h2>Politique de confidentialité</h2>
+    <p class="muted">Dernière mise à jour : 24 novembre 2026</p>
+    <p>NoForget n'a <strong>ni compte, ni serveur, ni publicité, ni outil de mesure d'audience</strong>. L'éditeur ne reçoit aucune de vos données.</p>
+    <h3>Ce que l'app enregistre, et où</h3>
+    <ul>
+      <li><strong>Sur votre iPhone</strong> : vos lieux (catégorie, titre, point GPS, adresse, étage, place, note) et les photos que vous prenez avec l'app.</li>
+      <li><strong>Dans votre iCloud, si vous l'activez</strong> : la synchronisation facultative copie ces données dans la base privée de votre compte Apple, pour les retrouver sur vos autres appareils. Elle est gérée par Apple ; l'éditeur n'y a pas accès.</li>
+    </ul>
+    <h3>Position et appareil photo</h3>
+    <p>La position n'est lue que lorsque l'app est ouverte, pour mémoriser un endroit ou afficher la distance jusqu'à un lieu. L'app ne suit jamais vos déplacements en arrière-plan. La photo est prise sur place avec l'appareil photo ; l'app n'accède pas à votre photothèque.</p>
+    <h3>Services d'Apple et de Google</h3>
+    <ul>
+      <li>Pour afficher l'adresse, les coordonnées du lieu sont envoyées au service de géocodage d'Apple, et la carte est fournie par Apple Plans.</li>
+      <li>Les boutons d'itinéraire ouvrent Apple Plans ou Google Maps avec la destination choisie, seulement quand vous les touchez.</li>
+      <li>Les abonnements sont traités par l'App Store ; l'éditeur ne voit aucune donnée de paiement.</li>
+    </ul>
+    <h3>Notifications</h3>
+    <p>Le minuteur de stationnement utilise des notifications locales, programmées sur l'iPhone.</p>
+    <h3>Vos choix</h3>
+    <ul>
+      <li>Supprimez un lieu ou tous vos lieux depuis l'app ; la synchronisation iCloud se désactive dans les Réglages de l'app.</li>
+      <li>Les autorisations (position, appareil photo, notifications) se modifient à tout moment dans les Réglages d'iOS.</li>
+    </ul>
+    <h3>Enfants</h3>
+    <p>NoForget ne s'adresse pas spécifiquement aux enfants et ne collecte aucune donnée les concernant.</p>
+    <h3>Hébergement de cette page</h3>
+    <p>Cette page est hébergée par GitHub Pages, qui peut journaliser les adresses IP de ses visiteurs. Elle n'utilise ni cookie ni outil de mesure.</p>
+  </div>
+</section>
+
+<section id="en">
+  <div class="card">
+    <h2>Support</h2>
+    <p>A question or a problem? Write to us through our contact form.</p>
+    <a class="btn" href="https://mythadubiz.github.io/contact/?app=noforget&amp;lang=en&amp;ctx=support">Contact us</a>
+  </div>
+  <div class="card">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Last updated: November 24, 2026</p>
+    <p>NoForget has <strong>no account, no server, no ads and no analytics</strong>. The publisher receives none of your data.</p>
+    <h3>What the app stores, and where</h3>
+    <ul>
+      <li><strong>On your iPhone</strong>: your places (category, title, GPS point, address, floor, spot, note) and the photos you take with the app.</li>
+      <li><strong>In your iCloud, if you turn it on</strong>: optional sync copies this data to the private database of your Apple account so you can find it on your other devices. It is operated by Apple; the publisher has no access to it.</li>
+    </ul>
+    <h3>Location and camera</h3>
+    <p>Your location is read only while the app is open, to save a place or show the distance to it. The app never tracks you in the background. Photos are taken on the spot with the camera; the app does not access your photo library.</p>
+    <h3>Apple and Google services</h3>
+    <ul>
+      <li>To show the address, the place's coordinates are sent to Apple's geocoding service, and the map is provided by Apple Maps.</li>
+      <li>Directions buttons open Apple Maps or Google Maps with the chosen destination, only when you tap them.</li>
+      <li>Subscriptions are processed by the App Store; the publisher never sees payment data.</li>
+    </ul>
+    <h3>Notifications</h3>
+    <p>The parking timer uses local notifications scheduled on your iPhone.</p>
+    <h3>Your choices</h3>
+    <ul>
+      <li>Delete one place or all places in the app; turn iCloud sync off in the app's Settings.</li>
+      <li>Permissions (location, camera, notifications) can be changed at any time in iOS Settings.</li>
+    </ul>
+    <h3>Children</h3>
+    <p>NoForget is not specifically directed at children and collects no data about them.</p>
+    <h3>Hosting of this page</h3>
+    <p>This page is hosted by GitHub Pages, which may log visitors' IP addresses. It uses no cookies and no analytics.</p>
+  </div>
+</section>
+
+</div>
+<footer>© 2026 Mythadubiz · NoForget</footer>
+</body>
+</html>
